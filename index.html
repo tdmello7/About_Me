@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" type="image/jpg" href="./Personal Cover.jpg"/>
+        <link rel="icon" type="image/jpg" href="Personal Cover.jpg"/>
         <title>About Me</title>
+
+            /* Style for screen size compatibility */
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
         <style>
             /* Style for circular image */
+
             .profile-image {
+                margin-top: 50px;
                 border-radius: 50%;
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 250px;
             }
             
-            /* Style for container */
-            .container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 50px;
-            }
             
             /* Style for text */
-            .intro {
-                margin-left: 50px;
-                font-size: 30px;
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                margin-left: 60px;
+                margin-right: 60px;
             }
             
+
+            .title {
+                font-family: 'Times New Roman', serif;
+                font-size: 36px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: .5px;
+            }
+
+            .intro {
+                margin-top: 0.5px;
+                margin-bottom: 40px;
+                font-size: 20px;
+
+            }
+        
+            
             /* Style for buttons */
+
             .button {
                 background-color: #2E58AE;
                 color: white;
@@ -44,17 +69,34 @@
             .button:hover {
                 background-color: #000000;
             }
+            
+            .container2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
-            <img src="./Personal Cover.jpg" alt="Profile Image" class="profile-image" />
-            <p class="intro"><strong>About Me</strong><br>
-            Hello, my name is Tanya and I am a Digital Marketing Specialist with an Interest in Programming. I am passionate about Digital and Software and love to learn about how systems work. I engage in a lot of practical experimentation to test theories within the relm of my areas of interest. </p>
+            <img src="./Personal Cover.jpg" alt="Profile Image" class="profile-image" /><br />
         </div>
+
         <div class="container">
+                <h1 class="title">About Me</h1><br />
+        </div>
+
+        <div class="container">
+                <p class="intro">Welcome to my digital journey! I'm Tanya, a seasoned Digital Marketing Strategist with a unique blend of skills and a passion for data-driven innovation. My career story began in web design, where I crafted captivating WordPress websites. Over time, I transitioned into the role of a Digital Communications Strategist, where I embraced the challenge of managing the digital performance of an eCommerce department. This experience ignited my curiosity about digital advertising and programming, prompting me to dive into Python, HTML, and CSS. I've also enrolled in various online courses to expand my knowledge and skills.</p><br>
+                <p class="intro">Beyond the digital realm, I hold a Master's Degree in Psychology, reflecting my profound interest in human behavior and personal growth. I'm a dedicated learner, continuously upskilling through online courses, driven by a belief in self-directed education. My vision extends beyond personal growth; I'm committed to supporting businesses that lack the resources to automate, aiming to be a part of their grassroots journey to build processes and systems from scratch. My ultimate goal is to empower businesses with innovative solutions that bridge the gap between their current capabilities and their untapped potential.</p> <br> 
+                <p class="intro">With a Masters Degree in Business and a data-driven perspecitive I excel at utilizing data to craft digital strategies and structures that maximize revenue while minimizing costs. I firmly believe that data is an unbiased and pragmatic tool, capable of presenting rational arguments that can be rigorously tested and proven. This commitment to evidence-based decision-making has been the cornerstone of my success in digital marketing. Alongside my professional journey, I am dedicated to making the world a better place and contributing to solving real-world problems. I recognize that this journey may start with one project at a time, but with my versatile skill set and unwavering determination, I am poised to make a lasting impact.</p>
+        </div>
+        <div class="container2">
             <a href="https://tanyadmello.com/Capstone%20Project/" target="_blank" class="button">My Resume</a>
             <a href="https://tanyadmello.com/Porfolio%20Project/" target="_blank" class="button">My Portfolio</a>
         </div>
     </body>
 </html>
+
+
