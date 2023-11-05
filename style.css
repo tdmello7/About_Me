@@ -1,0 +1,71 @@
+ .profile-image {
+                margin-top: 50px;
+                border-radius: 50%;
+                width: 250px;
+                height: 250px;
+            }
+            
+            
+            /* Style for text */
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            
+
+            .title {
+                font-family: 'Times New Roman', serif;
+                font-size: 36px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: .5px;
+            }
+
+            .intro {
+                margin-top: 0.5px;
+                margin-bottom: 40px;
+                font-size: 20px;
+
+            }
+
+            .copyright {
+                font-family: 'Times New Roman', serif;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        
+            }
+            /* Style for buttons */
+
+            .button {
+                background-color: #2E58AE;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-family: 'Times New Roman', serif;
+                font-size: 16px;
+                margin: 10px;
+                cursor: pointer;
+                border-radius: 40px;
+            }
+            
+            .button:hover {
+                background-color: #000000;
+            }
+            
+            .container2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+            }
